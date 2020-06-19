@@ -1,4 +1,20 @@
 .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-1, .section-2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.section-2 {
+  margin-top: 50px;
+}
+.pictures {
+  max-width: 900px;
+}
+.pictures__imgs {
+  margin: 3px;
+}
+.contacts {
+  margin-top: 45px;
 }
